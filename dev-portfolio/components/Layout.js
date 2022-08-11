@@ -13,7 +13,7 @@ function Layout({ title, description, children }) {
         <meta property="og:description" content={description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="relative z-10 px-2 overflow-hidden min-h-screen bg-primary-light antialiased font-montserrat">
+      <div className="relative z-10 px-2 overflow-hidden min-h-screen bg-primary-light antialiased font-montserrat dark:bg-gray-900 dark:text-white">
         <div className="w-full h-full">
           <Header />
           {children}
