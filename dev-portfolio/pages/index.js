@@ -27,16 +27,18 @@ export default function Home() {
   return (
     <Layout title={"Portfolio"} description={"My portfolio"}>
       <motion.img
-        src="/images/ball-2.svg"
-        alt="ball1"
+        src="/images/NewLogo.png"
+        alt="checkupcodes"
+        width={150}
         className="hidden md:block h-auto absolute top-38 right-10 z-[1]"
         whileHover={{ y: -10, rotate: -90, transition: { duration: 0.3 } }}
         drag
         dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
       ></motion.img>
       <motion.img
-        src="/images/ball-1.svg"
-        alt="ball2"
+         src="/images/NewLogo.png"
+         alt="checkupcodes"
+         width={150}
         className="hidden md:block h-auto absolute bottom-20 left-10 z-[1]"
         whileHover={{ y: -10, rotate: 180, transition: { duration: 0.4 } }}
         drag
