@@ -6,4 +6,3 @@ export const graphcms = new GraphQLClient(
     headers: {},
   }
 );
-
