@@ -12,11 +12,11 @@ const TypingAnimation = React.memo(
         wrapper="p"
         steps={[
           "Laravel Developer",
-          2000,
+          4000,
           "Software Engineer",
-          2000,
+          4000,
           "Youtuber",
-          2000,
+          4000,
         ]}
       />
     );
@@ -36,9 +36,9 @@ export default function Home() {
         dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
       ></motion.img>
       <motion.img
-         src="/images/NewLogo.png"
-         alt="checkupcodes"
-         width={150}
+        src="/images/NewLogo.png"
+        alt="checkupcodes"
+        width={150}
         className="hidden md:block h-auto absolute bottom-20 left-10 z-[1]"
         whileHover={{ y: -10, rotate: 180, transition: { duration: 0.4 } }}
         drag
@@ -56,7 +56,7 @@ export default function Home() {
             >
               Yakup Sarı
             </h1>
-            <div>
+            <div className="mt-5 text-xl font-normal text-transparent bg-gradient-to-r from-blue-500 via-indigo-400 to-purple-700 bg-clip-text md:mt-2">
               <TypingAnimation />
             </div>
           </div>
