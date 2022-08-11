@@ -4,6 +4,10 @@ import { motion } from "framer-motion";
 import Typical from "react-typical";
 import React from "react";
 
+import GithubIcon from "../components/icons/Github";
+import LinkedinIcon from "../components/icons/Linkedin";
+import TwitterIcon from "../components/icons/Twitter";
+
 const TypingAnimation = React.memo(
   () => {
     return (
@@ -58,6 +62,12 @@ export default function Home() {
             </h1>
             <div className="mt-5 text-xl font-normal text-transparent bg-gradient-to-r from-blue-500 via-indigo-400 to-purple-700 bg-clip-text md:mt-2">
               <TypingAnimation />
+            </div>
+            {/*Social*/}
+            <div className="flex item-center mt-8 space-x-6 md:mt-4">
+              <motion.a>
+                <GithubIcon className={"h-8 w-8 fill-current"}></GithubIcon>
+              </motion.a>
             </div>
           </div>
         </section>
