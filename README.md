@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# My Portfolio WebSite with Next.js
+  
+  <div align="center">
+  <img alt="HG_LOGO" src="https://user-images.githubusercontent.com/61888196/184370398-2d5ba32f-4091-487b-aa3b-0fcf9930e443.png" height="64" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+<br>
+<p align="center">
+Another Porfolio
+</p>
+<p align="center">
+crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://checkupcodes.com/">Cekap</a>.
+</p>
 
-### `npm start`
+<img width="1440" alt="Screen Shot 2022-08-12 at 15 13 37" src="https://user-images.githubusercontent.com/61888196/184370807-7ff01131-7bd4-4943-a46b-ff4b38dd9092.png"><img width="1440" alt="Screen Shot 2022-08-12 at 15 14 33" src="https://user-images.githubusercontent.com/61888196/184370836-716b00f6-4777-4585-b6db-5b577f89164b.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<p align="center">
+    <img src="https://img.shields.io/badge/version-1.0.0-yellowgreen" alt="version 1.0.0"/>
+    <img src="https://img.shields.io/badge/license-MIT-brightgreen" alt="license MIT"/>
+    <img src="https://img.shields.io/github/issues-pr-raw/harshgoel05/another-portfolio.svg" />
+    <img src="https://img.shields.io/github/issues-raw/harshgoel05/another-portfolio.svg"/>
+    <img src="https://img.shields.io/badge/author-Harsh%20Goel-orange" alt="author Harsh Goel"/>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> Harsh's Developer Portfolio built on NextJS!
+## Built With
 
-### `npm run build`
+This website is built with <span style="color: #8b0000;">&hearts;</span> on [NextJS](https://nextjs.org/), statically typed in [TypeScript](https://www.typescriptlang.org/) following the best practises in the market.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation 🔧
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ yarn
+```
 
-### `npm run eject`
+Building
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+$ yarn build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running Server 🚀
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the development server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+$ yarn dev
+```
 
-## Learn More
+Start the server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+$ yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+**I made my personal portfolio site!** Packages and libraries I use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ 1. Next.js Progressbar -> https://www.npmjs.com/package/nextjs-progressbar
+ 2. react-typical -> https://www.npmjs.com/package/react-typical
+ 3. Framer motion -> https://www.framer.com/motion/
+ 4. Next-themes -> https://www.npmjs.com/package/next-themes
+ 5. Graphql -> https://www.npmjs.com/package/graphql
+ 6. Graphql Request -> https://www.npmjs.com/package/graphql-request
 
-### Analyzing the Bundle Size
+**Create backend with Hygraph** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
